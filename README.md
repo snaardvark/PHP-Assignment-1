@@ -20,6 +20,7 @@ This file should accept 4 parameters passed via the URL in a GET request.
   - max-multiplicand
   - min-multiplier
   - max-multiplier
+  - All these number can come from the set of Whole numbers (numbers {0, 1, 2, 3, ...}).
 
 It should check than the min is in fact less than or equal to the max multiplicand and multiplier respectively. If it is not, it should print the message "Minimum [multiplicand|multiplier] larger than maximum.". It should also check that the values returned are integers for each parameter. If it is not it should print 1 message for each invalid input "[min-multiplicand...max-multiplier] must be an integer.". It should check that all 4 parameters exist for each missing parameter it should print "Missing parameter [min-multiplicand ... max-multiplier].".
 
